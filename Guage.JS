@@ -364,7 +364,7 @@ google.v.w.H.Cn=function(b){if(typeof b===I)try{if(""!==b)for(var c=JSON.parse(b
 
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
-          [this.label, this.value],
+          ["Label", 80],
           
         ]);
 
