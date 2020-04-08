@@ -1,0 +1,75 @@
+{
+    "id": "com.sap.sample.coloredbox",
+    "version": "1.0.0",
+    "name": "Colored Box",
+    "description": "A colored box",
+    "newInstancePrefix": "ColoredBox",
+    "icon": "https://github.com/bhargavab8/Box/blob/master/clock.jpg",
+    "vendor": "SAP",
+    "eula": "",
+    "license": "",
+    "webcomponents": [
+        {
+            "kind": "main",
+			"tag": "com-sap-sample-coloredbox",
+            "url": "https://github.com/bhargavab8/Box/blob/master/coloredbox.JS",
+            "integrity": "",
+            "ignoreIntegrity": true
+        },
+
+    ],
+    "properties": {
+        "value": {
+            "type": "integer",
+            "description": "value of guage",
+            "default": 10
+        },
+        "label": {
+            "type": "string",
+            "description": "label of guage",
+            "default": "Label"
+        },
+        "width": {
+            "type": "integer",
+            "default": 100
+        },
+        "height": {
+            "type": "integer",
+            "default": 100
+        }
+    },
+    "methods": {
+        "setvalue": {
+            "description": "Sets the Guage value.",
+            "parameters": [
+                {
+                    "name": "newvlaue",
+                    "type": "integer",
+                    "description": "The new guage value"
+                }
+            ],
+            "body": "this.value = newvalue;"
+        },
+		"setlabel":{
+			"description": "Sets the Guage label.",
+            "parameters": [
+                {
+                    "name": "newlabel",
+                    "type": "string",
+                    "description": "The new guage label"
+                }
+            ],
+            "body": "this.label = newlabel;"
+        },
+        "getvalue": {
+            "returnType": "integer",
+            "description": "Returns the gauge value.",
+            "body": "return this.value;"
+        }
+    },
+    "events": {
+        "onClick": {
+            "description": "Called when the user clicks the guage."
+        }
+    }
+}
