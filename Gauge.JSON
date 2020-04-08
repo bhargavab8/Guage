@@ -4,7 +4,7 @@
     "name": "Colored Box",
     "description": "A colored box",
     "newInstancePrefix": "ColoredBox",
-    "icon": "https://github.com/bhargavab8/Box/blob/master/clock.jpg",
+    "icon": "https://github.com/bhargavab8/Guage/blob/master/Guage.png",
     "vendor": "SAP",
     "eula": "",
     "license": "",
@@ -12,7 +12,7 @@
         {
             "kind": "main",
 			"tag": "com-sap-sample-coloredbox",
-            "url": "https://github.com/bhargavab8/Box/blob/master/coloredbox.JS",
+            "url": "https://github.com/bhargavab8/Guage/blob/master/Guage.JS",
             "integrity": "",
             "ignoreIntegrity": true
         },
